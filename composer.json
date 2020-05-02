@@ -1,0 +1,22 @@
+{
+    "name": "browserbotphp/simple-template-engine-php",
+    "description": "simple template engine you can very fast editing tags",
+    "type": "library",
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "authors": [
+        {
+            "name": "mohammad Malla Othman",
+            "email": "mohmmad.m.othman@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BrowserBotPHP\\STemplates\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
