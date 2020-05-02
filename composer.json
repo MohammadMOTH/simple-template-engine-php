@@ -1,5 +1,5 @@
 {
-    "name": "browserbotphp/simple-template-engine-php",
+    "name": "browserbotphp/stemplates",
     "description": "simple template engine you can very fast editing tags",
     "type": "library",
     "license": "MIT",
