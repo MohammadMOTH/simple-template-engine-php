@@ -119,6 +119,8 @@ class STemplates
                     if (is_array($objectData)) {
                         $objectData  = (object) $objectData;
                     }
+                    if ( !isset($objectData->{$valuex}))
+                            break;
                     $objectData = $objectData->{$valuex};
                 }
                 $value = $objectData;
