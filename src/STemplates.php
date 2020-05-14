@@ -119,7 +119,7 @@ class STemplates
                     if (is_array($objectData)) {
                         $objectData  = (object) $objectData;
                     }
-                    if ( !isset($objectData->{$valuex}))
+                    if ( !isset($objectData->{$valuex} ) )
                             break;
                     $objectData = $objectData->{$valuex};
                 }
@@ -138,7 +138,7 @@ class STemplates
         }
 
         foreach ($newarray as  $key => $value) {
-
+            if ( is_string($value))
             $filestrings = str_replace($key, $value, $filestrings);
         }
         return $filestrings;
