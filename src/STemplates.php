@@ -138,7 +138,7 @@ class STemplates
         }
 
         foreach ($newarray as  $key => $value) {
-            if ( is_string($value))
+            if ( !is_object($value) && !is_array($value)  )
             $filestrings = str_replace($key, $value, $filestrings);
         }
         return $filestrings;
